@@ -92,6 +92,7 @@ function AppHeader(props) {
                   <Button
                     variant='outlined'
                     onClick={handleCloseNavMenu}
+                    href='mailto:rivaldi1997@hotmail.com'
                     sx={{ my: 2, color: 'white', borderColor:'whitesmoke' }}
                   >
                     <Typography variant='body1'>
