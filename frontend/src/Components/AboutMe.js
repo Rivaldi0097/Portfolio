@@ -19,13 +19,13 @@ function AboutMe(props) {
                     xl={7}
                     sx={{p:{sm:5, md:5}}}
                 >
-                    <Typography variant='h3' align='left'>Hello, I am Rivaldi Kongres,</Typography>
+                    <Typography variant='h3' align='left' sx={{fontSize:{xs:'2rem', sm:'2rem', md:'2rem'}}}>Hello, I am Rivaldi Kongres,</Typography>
                     <br/>
-                    <Typography variant='h4' align='left'>
+                    <Typography variant='h4' align='left' sx={{fontSize:{xs:'2rem', sm:'2rem', md:'2rem'}}}>
                         An aspiring Full Stack Developer. This is my poftfolio just for you to get to know me better.
                     </Typography>
                     <br/>
-                    <Typography variant='h4' align='left'>
+                    <Typography variant='h4' align='left' sx={{fontSize:{xs:'2rem', sm:'2rem', md:'2rem'}}}>
                         I am currently based in Singapore and had just completed my study with Singapore Management Univesity (SMU).
                     </Typography>
                 </Grid>

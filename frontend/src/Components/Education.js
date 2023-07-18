@@ -41,7 +41,10 @@ function Education(props) {
                 {education.map((obj, i)=>{
                     return(
                         <Grid item key={i}>
-                            <Card sx={{ width: 500, minHeight:300 }}>
+                            <Card sx={{ 
+                                    width: {xs:300, sm:400, md:500}, 
+                                    minHeight:300 
+                                }}>
                                 <CardMedia
                                     sx={{ height: 200 }}
                                     image={obj.img}
