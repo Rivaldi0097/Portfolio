@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #000000; 
+  background-image: linear-gradient(to right, #000000 0%, #04619f 74%); 
+  color: white;
 }
 
 .App-logo {
@@ -13,8 +16,15 @@
   }
 }
 
+/* .backgroundColor{
+  background-color: #000000;
+  background-image: linear-gradient(to right, #000000 0%, #04619f 74%);
+  color: white;
+} */
+
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
+  background-image: linear-gradient(to right, #000000 0%, #04619f 74%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +45,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiHeader{
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 }
