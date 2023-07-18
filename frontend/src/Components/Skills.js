@@ -20,8 +20,8 @@ import typescript from '../img/typescript.png';
 function Skills(props) {
 
     const [skillSelected, setSkillSelected] = useState('Frontend');
-    const [buttonFrontendColor, setButtonFrontendColor] = useState('#1d1d20');
-    const [buttonBackendColor, setButtonBackendColor] = useState('#1d1d20');
+    const [buttonFrontendColor, setButtonFrontendColor] = useState('whitesmoke');
+    const [buttonBackendColor, setButtonBackendColor] = useState('whitesmoke');
     const skillButtonBorder = 10;
     const minHeightSkill = 300;
 
@@ -58,12 +58,8 @@ function Skills(props) {
     return (
         <Box
             sx={{
-                //m:5,
-                bgcolor:'whitesmoke',
+                bgcolor:'#1d1d20',
                 minHeight:minHeightSkill,
-                //borderRadius:5,
-                mr:5,
-                ml:5,
                 pb:5
             }}
         >
@@ -110,16 +106,15 @@ function Skills(props) {
                                 borderTop: skillButtonBorder, 
                                 borderLeft: skillButtonBorder, 
                                 pt:10,
-                                borderColor:'#1d1d20',
+                                borderColor:'whitesmoke',
                                 letterSpacing: '0.18px',
                                 '&:hover': {
-                                    backgroundColor: '#1d1d20',
-                                    color:'black'
+                                    backgroundColor: 'whitesmoke',
                                 }
                             }} 
                             onClick={()=>{changeSkill('Frontend')}}
-                            onMouseOver={()=>{setButtonFrontendColor('white')}}
-                            onMouseLeave={()=>{setButtonFrontendColor('#1d1d20')}}
+                            onMouseOver={()=>{setButtonFrontendColor('#1d1d20')}}
+                            onMouseLeave={()=>{setButtonFrontendColor('whitesmoke')}}
                         >
                             <Typography sx={{color:buttonFrontendColor, textDecoration:skillSelected === 'Frontend'? 'underline':''}} variant='skillButton'>Frontend</Typography>
                         </Button>
@@ -129,16 +124,15 @@ function Skills(props) {
                             sx={{
                                 borderBottom: skillButtonBorder, 
                                 borderRight: skillButtonBorder, 
-                                borderColor:'#1d1d20',
+                                borderColor:'whitesmoke',
                                 pb:10,
                                 '&:hover': {
-                                    backgroundColor: '#1d1d20',
-                                    color:'black'
+                                    backgroundColor: 'whitesmoke',
                                 }
                             }} 
                             onClick={()=>{changeSkill('Backend')}}
-                            onMouseOver={()=>{setButtonBackendColor('white')}}
-                            onMouseLeave={()=>{setButtonBackendColor('#1d1d20')}}
+                            onMouseOver={()=>{setButtonBackendColor('#1d1d20')}}
+                            onMouseLeave={()=>{setButtonBackendColor('whitesmoke')}}
                         >
                         <Typography sx={{color:buttonBackendColor, textDecoration:skillSelected === 'Backend'? 'underline':''}} variant='skillButton'>Backend</Typography>
                         </Button>

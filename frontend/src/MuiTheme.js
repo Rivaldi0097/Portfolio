@@ -14,7 +14,7 @@ const MuiTheme = createTheme({
             'fontSize': "4rem",
             'fontWeight':900,
             'fontWeightRegular': 1.167,
-            'color':'#1d1d20',
+            'color':'whitesmoke',
         },
         'skillButton':{
             'fontFamily':"MontserRrat-Regular",

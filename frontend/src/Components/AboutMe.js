@@ -22,7 +22,7 @@ function AboutMe(props) {
                     <Typography variant='h3' align='left' sx={{fontSize:{xs:'2rem', sm:'2rem', md:'2rem'}}}>Hello, I am Rivaldi Kongres,</Typography>
                     <br/>
                     <Typography variant='h4' align='left' sx={{fontSize:{xs:'2rem', sm:'2rem', md:'2rem'}}}>
-                        An aspiring Full Stack Developer. This is my poftfolio just for you to get to know me better.
+                        An aspiring Full Stack Developer. This is a simple poftfolio just for you to get to know me better.
                     </Typography>
                     <br/>
                     <Typography variant='h4' align='left' sx={{fontSize:{xs:'2rem', sm:'2rem', md:'2rem'}}}>
