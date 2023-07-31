@@ -16,6 +16,7 @@ import nodejs from '../img/nodejs.png';
 import python from '../img/python.png';
 import reactjs from '../img/reactjs.png';
 import typescript from '../img/typescript.png';
+import redux from '../img/redux.png';
 
 function Skills(props) {
 
@@ -31,6 +32,7 @@ function Skills(props) {
         {'src': javascript, 'alt': 'javascript logo'},
         {'src': reactjs, 'alt': 'reactjs logo'},
         {'src': typescript, 'alt': 'typescript logo'},
+        {'src': redux, 'alt': 'redux logo'}
     ]
 
     const backend = [
@@ -78,7 +80,7 @@ function Skills(props) {
                             {skillSelected === 'Frontend'?
                                 frontend.map( (obj, i) => {
                                     return(
-                                        <Grid item key={i}>
+                                        <Grid item key={i} className='skill'>
                                             <img src={obj.src} alt={obj.alt} />
                                         </Grid>
                                     )
@@ -86,7 +88,7 @@ function Skills(props) {
                             :
                                 backend.map( (obj, i) => {
                                     return(
-                                        <Grid item key={i}>
+                                        <Grid item key={i} className='skill'>
                                             <img src={obj.src} alt={obj.alt} />
                                         </Grid>
                                     )

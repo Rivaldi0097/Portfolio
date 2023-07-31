@@ -25,8 +25,9 @@ function Education(props) {
                 display:'flex',
                 flexDirection:'column',
                 alignItems:'center',
-                minHeight:400,
-                m:10
+                minHeight:'30vh',
+                m:10,
+                mt:0
             }}
         >
             <Typography variant='title' sx={{fontSize:{xs:'2.5rem', sm:'3rem', md:'4rem'}}} gutterBottom>Tutorials Received From:</Typography>

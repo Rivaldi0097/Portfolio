@@ -1,5 +1,4 @@
 import './App.css';
-import AppHeader from './Components/AppHeader';
 import AboutMe from './Components/AboutMe';
 import Education from './Components/Education';
 import Skills from './Components/Skills';
@@ -14,7 +13,6 @@ function App() {
     <ThemeProvider theme={MuiTheme}>
       <div className="App">
 
-        <AppHeader/>
 
         <AboutMe/>
 

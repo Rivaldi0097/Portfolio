@@ -32,7 +32,7 @@ function AppHeader(props) {
           position="static"
           elevation={0}
           sx={{
-            background:'linear-gradient(to right, #000000 0%, #04619f 74%)',
+            background:'#313336',
             pt:5
           }}
         >
