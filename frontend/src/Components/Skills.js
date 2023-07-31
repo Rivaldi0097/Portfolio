@@ -17,7 +17,12 @@ import python from '../img/python.png';
 import reactjs from '../img/reactjs.png';
 import typescript from '../img/typescript.png';
 import redux from '../img/redux.png';
-import html144 from "../img/html-144.png";
+import html144 from "../img/size_144/html-144.png";
+import css144 from "../img/size_144/css-144.png";
+import js144 from "../img/size_144/js-144.png";
+import typescript144 from "../img/size_144/typescript-144.png";
+import react144 from "../img/size_144/react-native-96.png";
+import redux144 from "../img/size_144/redux-144.png";
 
 function Skills(props) {
 
@@ -28,13 +33,12 @@ function Skills(props) {
     const minHeightSkill = 300;
 
     const frontend = [
-        {'src': html, 'alt': "html logo"},
         {'src': html144, 'alt': "html logo"},
-        {'src': css, 'alt': 'css logo'},
-        {'src': javascript, 'alt': 'javascript logo'},
-        {'src': reactjs, 'alt': 'reactjs logo'},
-        {'src': typescript, 'alt': 'typescript logo'},
-        {'src': redux, 'alt': 'redux logo'}
+        {'src': css144, 'alt': 'css logo'},
+        {'src': js144, 'alt': 'javascript logo'},
+        {'src': react144, 'alt': 'reactjs logo'},
+        {'src': typescript144, 'alt': 'typescript logo'},
+        {'src': redux144, 'alt': 'redux logo'}
     ]
 
     const backend = [
