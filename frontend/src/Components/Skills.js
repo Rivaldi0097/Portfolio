@@ -74,7 +74,7 @@ function Skills(props) {
                         alignItems="center"
                         spacing={2}
                     >
-                        <Typography variant='title2' sx={{fontSize:{xs:'2.5rem', sm:'3rem', md:'4rem'}}}>Skills Acquired Over Time</Typography>
+                        <Typography variant='title2' sx={{fontSize:{xs:'2rem', sm:'2.5rem', md:'3.5rem'}, mt:2}}>Skills Acquired Over Time</Typography>
 
                         <Grid container justifyContent="center" alignItems="center">
                             {skillSelected === 'Frontend'?

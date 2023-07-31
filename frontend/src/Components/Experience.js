@@ -39,7 +39,7 @@ function Experience(props) {
                         >
                             <Grid container alignItems='center'>
                                 <Grid item sm={12} md={12} lg={8}>
-                                    <Typography variant='button' sx={{fontSize:{xs:'3rem', sm:'4rem', md:'5rem'}}}>{obj.company}</Typography>
+                                    <Typography variant='button' sx={{fontSize:{xs:'2.5rem', sm:'3.5rem', md:'4.5rem'}}}>{obj.company}</Typography>
                                 </Grid>
 
                                 <Grid item sm={12} md={12} lg={4}>
@@ -53,7 +53,7 @@ function Experience(props) {
                         </Box>
 
                         <Box>
-                            <Typography variant='body1' sx={{fontSize:'1.3rem'}}>
+                            <Typography variant='body1' sx={{fontSize:'1rem'}}>
                                 {obj.description}
                             </Typography>
                         </Box>
