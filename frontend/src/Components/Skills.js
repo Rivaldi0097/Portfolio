@@ -23,6 +23,10 @@ import js144 from "../img/size_144/js-144.png";
 import typescript144 from "../img/size_144/typescript-144.png";
 import react144 from "../img/size_144/react-native-96.png";
 import redux144 from "../img/size_144/redux-144.png";
+import nodejs144 from "../img/size_144/nodejs-144.png";
+import mysql144 from "../img/size_144/mysql-144.png";
+import mongodb144 from "../img/size_144/mongodb-144.png";
+import python144 from "../img/size_144/python-144.png";
 
 function Skills(props) {
 
@@ -42,10 +46,10 @@ function Skills(props) {
     ]
 
     const backend = [
-        {'src': nodejs, 'alt': 'nodejs logo'},
-        {'src': mysql, 'alt': 'my sql logo'},
-        {'src': mongodb, 'alt': 'mongodb logo'},
-        {'src': python, 'alt': 'python logo'},
+        {'src': nodejs144, 'alt': 'nodejs logo'},
+        {'src': mysql144, 'alt': 'my sql logo'},
+        {'src': mongodb144, 'alt': 'mongodb logo'},
+        {'src': python144, 'alt': 'python logo'},
     ]
 
     const boxProps = {
@@ -73,7 +77,7 @@ function Skills(props) {
         >
 
             <Grid container justifyContent="center" alignItems="center">
-                <Grid item sm={12} md={12} lg={7}>
+                <Grid item sm={12} md={12} lg={8}>
                     <Stack
                         direction="column"
                         justifyContent="center"
@@ -104,7 +108,7 @@ function Skills(props) {
                     </Stack>
                 </Grid>
 
-                <Grid item xs={12} md={12} lg={5}>
+                <Grid item xs={12} md={12} lg={4}>
                     <Box
                         sx={boxProps}
                     >
