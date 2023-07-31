@@ -17,6 +17,7 @@ import python from '../img/python.png';
 import reactjs from '../img/reactjs.png';
 import typescript from '../img/typescript.png';
 import redux from '../img/redux.png';
+import html144 from "../img/html-144.png";
 
 function Skills(props) {
 
@@ -28,6 +29,7 @@ function Skills(props) {
 
     const frontend = [
         {'src': html, 'alt': "html logo"},
+        {'src': html144, 'alt': "html logo"},
         {'src': css, 'alt': 'css logo'},
         {'src': javascript, 'alt': 'javascript logo'},
         {'src': reactjs, 'alt': 'reactjs logo'},
