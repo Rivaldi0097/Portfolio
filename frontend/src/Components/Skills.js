@@ -7,16 +7,6 @@ import {
     Button,
     Stack
 } from '@mui/material';
-import css from '../img/css.png';
-import html from '../img/html.png';
-import javascript from '../img/javascript.png';
-import mongodb from '../img/mongodb.png';
-import mysql from '../img/mysql.png';
-import nodejs from '../img/nodejs.png';
-import python from '../img/python.png';
-import reactjs from '../img/reactjs.png';
-import typescript from '../img/typescript.png';
-import redux from '../img/redux.png';
 import html144 from "../img/size_144/html-144.png";
 import css144 from "../img/size_144/css-144.png";
 import js144 from "../img/size_144/js-144.png";
