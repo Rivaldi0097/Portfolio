@@ -7,6 +7,7 @@ import ContactMe from './Components/ContactMe';
 import MuiTheme from './MuiTheme';
 import { ThemeProvider } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
+import Projects from './Components/Projects';
 
 function App() {
 
@@ -37,8 +38,9 @@ function App() {
 
         <Experience/>
 
-        <ContactMe/>
+        <Projects />
 
+        <ContactMe/>
 
       </div>
     </ThemeProvider>

@@ -27,7 +27,7 @@ function Education(props) {
                 alignItems:'center',
                 minHeight:'30vh',
                 m:10,
-                mt:0
+                mt:0,
             }}
         >
             <Typography variant='title' sx={{fontSize:{xs:'2.5rem', sm:'3rem', md:'4rem'}}} gutterBottom>Tutorials Received From:</Typography>

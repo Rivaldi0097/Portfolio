@@ -13,7 +13,7 @@ function ContactMe(props) {
                 display:'flex',
                 flexDirection:'column',
                 alignItems:'center',
-                bgcolor:'#1d1d20',
+
                 minHeight:400
             }}
         >
